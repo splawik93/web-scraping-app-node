@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web_scraping:
+    container_name: webscrap
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: npm run start
+    ports:
+      - "6060:6060"
+    volumes:
+      - ./:/usr/src/app  
