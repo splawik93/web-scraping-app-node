@@ -1,0 +1,4 @@
+GET https://jsonapi.org/examples/articles?include=author
+
+
+easy way to make API test
